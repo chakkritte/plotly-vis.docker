@@ -6,7 +6,7 @@ MAINTAINER Chakkrit Termritthikun <chakkritt60@nu.ac.th>
 
 RUN \
   apt-get -q -y update && \
-  apt-get -q -y install imagemagick libgl1-mesa-glx xvfb libgtk2.0-0 libgconf-2-4 libgtk-3-0 libxss1 libasound2 && \
+  apt-get -q -y install imagemagick libgl1-mesa-glx xvfb libgtk2.0-0 libgconf-2-4 libgtk-3-0 libxss1 libasound2 libnss3-dev && \
   rm -rf /var/lib/apt/lists/*
  
 RUN \ 
